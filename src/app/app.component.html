@@ -1,3 +1,19 @@
 <h1>
   {{title}}
 </h1>
+
+<div>
+  <input type="text" [(ngModel)]="message"><br/>
+  <span> Curent message to send is : {{message}}</span><br/>
+  <button (click)="sendMessage()">Send Mesage</button>
+  <div>  <span> Message sent is  : {{message1}}</span>
+  </div>
+</div>
+<!-- <iframe src="https://www.npmjs.com/package/angular-cli#prerequisites" height="500" width="600"></iframe> -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/owsfdh4gxyc" frameborder="0" allowfullscreen></iframe> -->
+
+<!-- <iframe width="560" height="315" src="http://localhost:8081/GWTIframe-1.0-SNAPSHOT/GWTIframe.html" frameborder="0" allowfullscreen></iframe> -->
+
+<iframe width="560" height="315" src="http://127.0.0.1:8888/GWTIframe.html"
+ frameborder="0" allowfullscreen #gwtIframe></iframe>
